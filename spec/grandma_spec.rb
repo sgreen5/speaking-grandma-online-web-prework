@@ -14,11 +14,12 @@ describe '#speak_to_grandma' do
   it 'responds with HUH?! SPEAK UP, SONNY! for a second time' do
     expect(speak_to_grandma('Hi!')).to eq 'HUH?! SPEAK UP, SONNY!'
     elsif "Hi!"
-      puts 
+      puts "Hi Nana, how are you?"
   end
 
   it 'responds with NO, NOT SINCE 1938! when she can hear you' do
-    expect(speak_to_grandma('WHAT DID YOU EAT TODAY?')).to eq "NO, NOT SINCE 1938!"
+    expect(speak_to_grandma('WHAT DID YOU
+    
   end
 
   it 'responds with NO, NOT SINCE 1938! for a second time' do
